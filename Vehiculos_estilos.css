@@ -1,0 +1,367 @@
+body{
+	padding: 0;
+	margin: 0;
+
+}
+header {
+    background-color: #1162ac;
+    padding: 10px 20px;
+    text-align: center; /* Para centrar el logo horizontalmente */
+}
+
+.logo img {
+    max-height: 80px; /* Ajusta el tamaño del logo según tu diseño */
+    margin-bottom: 0; /* Elimina el margen inferior del logo */
+
+
+
+}
+
+nav {
+    background-color: #333; /* Cambia el color de fondo del menú */
+    text-align: center;
+
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    padding: 20px;
+
+
+}
+
+nav li {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+    display: inline; /* Para que los elementos estén en línea uno al lado del otro */
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: lato;
+    padding: 14px;
+
+}
+
+ a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 27px;
+    font-family: lato;
+    padding: 14px;
+    background-color: #0f89bc;
+
+}
+
+
+/* Consulta de medios para hacer el menú responsivo */
+@media (max-width: 768px) {
+    nav {
+        display: block;
+    }
+
+    nav li {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: radial-gradient(circle at 50% -20.71%, #00ffff 0, #24deff 25%, #3cb5f2 50%, #408ebe 75%, #3c6b8e 100%);
+    background-size: cover; /* Para que el degradado cubra todo el fondo */
+    background-repeat: revert;
+}
+
+.container {
+    max-width: 970px; /* Ancho máximo del contenedor */
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box {
+    width: calc(33.33% - 10px); /* Ancho de cada div (33.33% del ancho total menos el margen) */
+    background-color: #333333;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.box img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen para que se ajuste al contenedor */
+    height: auto;
+    border-bottom: 5px solid black;
+}
+
+h3 {
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.car-box {
+    width: calc(33.33% - 10px);
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+     background-color: #333333;
+}
+
+.car-box img {
+    max-width: 100%; /* Establece un ancho máximo para la imagen */
+    max-height: 100%; /* Establece una altura máxima para la imagen */
+    width: auto;
+    height: auto;
+    border-bottom: 5px solid black;
+
+
+}
+
+.buy-button {
+    background-color: #1162ac;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    border: 3px solid black;
+}
+
+
+
+
+
+.buy-button:hover{
+	color: white;
+	background-color: green;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Consulta de medios para hacer el menú responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+/* Contenedor principal */
+.container {
+    max-width: 100%; /* Cambia el ancho máximo para que se ajuste al ancho de la pantalla */
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Filas */
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los divs se ajusten a la pantalla si no caben en una fila */
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Cajas de contenido */
+.box, .car-box {
+    width: calc(50% - 10px); /* Ancho de cada div (50% del ancho total menos el margen) en pantallas medianas y grandes */
+    background-color: #333333;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Imágenes */
+.box img, .car-box img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen para que se ajuste al contenedor */
+    height: auto;
+    border-bottom: 5px solid black;
+}
+
+/* Títulos */
+h3 {
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Texto */
+p {
+    margin: 5px 0;
+    color: white;
+}
+
+/* Botones de compra */
+.buy-button {
+    background-color: #1162ac;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    border: 3px solid black;
+}
+
+.buy-button:hover {
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 10px;
+        margin-top: 100px;
+        margin-left: 300px;
+        
+    }
+
+    .mapa{
+        margin-right: 50px;
+    }
+
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #555;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+
+    iframe {
+        width: 400px;
+        height: 300px;
+    }
+
+
+
+    .imglogito{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+ 
